@@ -11,8 +11,9 @@ require 'pry'
 def get_the_values(groceries)
   y = []
   groceries.each do |k, food|
-    food.join(", ") 
-    y << food 
+    y << food.join(", ")
+    y.join(", ")
+    z = [y]
   end 
   y 
 end
