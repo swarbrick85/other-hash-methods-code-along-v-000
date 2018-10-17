@@ -9,11 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  y = []
-  groceries.each do |k, food|
-    y << food.join(", ")
-    y.join(", ")
-    z = [y]
+  groceries.values.flatten
   end 
   y 
 end
